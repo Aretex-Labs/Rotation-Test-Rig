@@ -19,12 +19,24 @@ Characterizing an orientation sensor's real-world accuracy means comparing its o
 
 | Phase | Scope | Status |
 |---|---|---|
-| 0 — Scaffold | Repo structure, README, licenses, roadmap | In progress |
-| 1 — Single axis | Motorized axis built and moving under closed-loop control | Not started |
+| 0 — Scaffold | Repo structure, README, licenses, roadmap | Done |
+| 1 — Single axis | Motorized axis built and moving under closed-loop control | In Progress (8/31/2026) |
 | 2 — Manual-index fixture | Two-axis pinned index bracket; all three axes individually testable | Not started |
 | 3 — v1.0 | BOM, assembly guide, calibration procedure, worked test example; measured accuracy documented | Not started |
 | 4 — v1.x Verification layer | Independent encoder + optical cross-check live; backlash/repeatability characterized | Not started |
 | 5+ — v2.0 | Full simultaneous 3-DOF gimbal | Not started |
+
+### Phase 1 Roadmap
+
+| Step | Description | Status |
+|---|---|---|
+| Source parts | STS3215 servo, FE-URT USB-TTL adapter, thin-section bearing, mounting hardware | Not started |
+| Design rotary stage | CAD the single-axis mount: bearing seat, servo mount, base plate | Not started |
+| Print/machine | Produce the plates/brackets from the CAD | Not started |
+| Assemble | Bearing + servo + plates into one rotating joint; check for wobble/play | Not started |
+| Wire | Servo → USB-TTL adapter → laptop | Not started |
+| Write CLI control script | Command an angle via the servo SDK, read back reported position | Not started |
+| Verify closed-loop motion | Commanded angle vs. servo-reported angle agree across a few test points | Not started |
 
 ## Repo layout
 
