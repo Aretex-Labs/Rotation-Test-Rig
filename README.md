@@ -38,7 +38,7 @@ Characterizing an orientation sensor's real-world accuracy means comparing its o
 ## License
 
 - Everything under `/hardware`: [CERN-OHL-W](https://ohwr.org/cern_ohl_w_v2.txt)
-- Everything under `/firmware` and `/software`: MIT
+- Everything under `/firmware` and `/software`: [MIT](https://opensource.org/license/mit)
 
 See `LICENSE` (software) and `LICENSE-HARDWARE` (hardware) for full text.
 
